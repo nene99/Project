@@ -5,11 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="612.95" Width="528.992">
-    <Grid>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Margin="25,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="70" RadiusY="10" RadiusX="10"/>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="33" Margin="74,0,0,0" VerticalAlignment="Top" Width="34" Source="coin.png"/>
-        <Label x:Name="label" Content="0" HorizontalAlignment="Left" Margin="36,10,0,0" VerticalAlignment="Top"/>
+        Title="MainWindow" Height="923.95" Width="528.992">
+    <Grid Margin="0,40,0,160">
+        <Grid.ColumnDefinitions >
+            <ColumnDefinition  Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Margin="13,-36,0,0" Stroke="Black" VerticalAlignment="Top" Width="70" RadiusY="10" RadiusX="10"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="33" Margin="49,-47,0,0" VerticalAlignment="Top" Width="34" Source="coin.png"/>
+        <Label x:Name="label" Content="0" HorizontalAlignment="Left" Margin="13,-36,0,0" VerticalAlignment="Top"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="100" Margin="0,0,0,-1" Grid.Row="6" VerticalAlignment="Top" Width="180" Grid.ColumnSpan="2" Source="sea.png"/>
+        <Image x:Name="image2" HorizontalAlignment="Left" Height="100" Margin="39,98,0,0" Grid.Row="5" VerticalAlignment="Top" Width="180" Grid.ColumnSpan="2" Source="sea.png" Grid.Column="1" Grid.RowSpan="2"/>
+        <Image x:Name="image3" HorizontalAlignment="Left" Height="100" Margin="81,97,-1,0" Grid.Row="5" VerticalAlignment="Top" Width="180" Grid.ColumnSpan="2" Source="sea.png" Grid.Column="2" Grid.RowSpan="2"/>
 
     </Grid>
 </Window>
