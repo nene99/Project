@@ -108,5 +108,20 @@
   <ItemGroup>
     <Resource Include="sea.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SmallF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="BigF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resturt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="exit.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -25,5 +25,15 @@ namespace WpfApp1
             InitializeComponent();
             
         }
+
+        private void Exit_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Restart_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+           
+        }
     }
 }
