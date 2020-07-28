@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WpfApp1.Veiw
+namespace WpfApp1.Controller
 {
-    class Class1
+    class Class2
     {
-         public Class1()
+        public Class2()
         {
-            Console.WriteLine("1");
-            
+            Console.WriteLine("2");
+
         }
     }
 }
