@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="612.95" Width="528.992">
     <Grid>
-        
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Margin="25,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="70" RadiusY="10" RadiusX="10"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="33" Margin="74,0,0,0" VerticalAlignment="Top" Width="34" Source="coin.png"/>
+        <Label x:Name="label" Content="0" HorizontalAlignment="Left" Margin="36,10,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
