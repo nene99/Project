@@ -28,11 +28,9 @@
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="31" Margin="13,-36,0,0" Stroke="Black" VerticalAlignment="Top" Width="70" RadiusY="10" RadiusX="10"/>
         <Image x:Name="image" HorizontalAlignment="Left" Height="33" Margin="49,-47,0,0" VerticalAlignment="Top" Width="34" Source="coin.png"/>
         <Label x:Name="label" Content="0" HorizontalAlignment="Left" Margin="13,-36,0,0" VerticalAlignment="Top"/>
-        <Image x:Name="image1" HorizontalAlignment="Left" Height="100" Margin="-3,10,0,-2" Grid.Row="6" VerticalAlignment="Top" Width="180" Grid.ColumnSpan="2" Source="sea.png"/>
-        <Image x:Name="image2" HorizontalAlignment="Left" Height="100" Margin="31,10,0,-2" Grid.Row="6" VerticalAlignment="Top" Width="180" Grid.ColumnSpan="2" Source="sea.png" Grid.Column="1"/>
-        <Image x:Name="image3" HorizontalAlignment="Left" Height="100" Margin="77,9,0,-1" Grid.Row="6" VerticalAlignment="Top" Width="180" Grid.ColumnSpan="2" Source="sea.png" Grid.Column="2"/>
-        <Image x:Name="Bug" Height="151" Margin="58,118,96,-161" Grid.Row="6" VerticalAlignment="Top" Grid.ColumnSpan="2" Source="bug.png" Panel.ZIndex="1" Grid.Column="1"/>
-        <Image x:Name="Fish" HorizontalAlignment="Left" Height="56" Margin="83,184,0,-132" Grid.Row="6" VerticalAlignment="Top" Width="57" Panel.ZIndex="2" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="762" Margin="0,4,-1,-10" VerticalAlignment="Top" Width="522" Grid.ColumnSpan="4" Source="bachground.jpg" Grid.RowSpan="7" Panel.ZIndex="4"/>
+        <Image x:Name="Bug" Height="151" Margin="58,118,96,-161" Grid.Row="6" VerticalAlignment="Top" Grid.ColumnSpan="2" Source="bug.png" Panel.ZIndex="2" Grid.Column="1"/>
+        <Image x:Name="Fish" HorizontalAlignment="Left" Height="56" Margin="83,184,0,-132" Grid.Row="6" VerticalAlignment="Top" Width="57" Panel.ZIndex="3" Grid.ColumnSpan="2" Grid.Column="1"/>
         <Image x:Name="Restart" Grid.Column="3" HorizontalAlignment="Left" Height="60" Margin="20,-56,0,0" VerticalAlignment="Top" Width="60" Source="resturt.png" MouseDown="Restart_MouseDown"/>
         <Image x:Name="Exit" Grid.Column="3" HorizontalAlignment="Left" Height="41" Margin="85,-47,-1,0" VerticalAlignment="Top" Width="46" Source="exit.png" MouseDown="Exit_MouseDown"/>
 
